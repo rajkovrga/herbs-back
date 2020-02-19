@@ -1,0 +1,355 @@
+[2020-02-06 12:11:06] local.ERROR: Command "make:auth" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:auth\" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /home/rajko/Desktop/back/vendor/symfony/console/Application.php:670)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find()
+#1 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#4 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2020-02-06 12:43:04] local.ERROR: A `likes-comments` permission already exists for guard `api`. {"exception":"[object] (Spatie\\Permission\\Exceptions\\PermissionAlreadyExists(code: 0): A `likes-comments` permission already exists for guard `api`. at /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Exceptions/PermissionAlreadyExists.php:11)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Models/Permission.php(40): Spatie\\Permission\\Exceptions\\PermissionAlreadyExists::create()
+#1 /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php(38): Spatie\\Permission\\Models\\Permission::create()
+#2 [internal function]: RolesTableSeeder->run()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(134): Illuminate\\Container\\Container->call()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#10 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#11 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#12 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#14 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#18 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#19 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#20 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#22 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#23 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#24 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#25 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#26 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#27 {main}
+"} 
+[2020-02-06 12:44:12] local.ERROR: A `update-account` permission already exists for guard `api`. {"exception":"[object] (Spatie\\Permission\\Exceptions\\PermissionAlreadyExists(code: 0): A `update-account` permission already exists for guard `api`. at /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Exceptions/PermissionAlreadyExists.php:11)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Models/Permission.php(40): Spatie\\Permission\\Exceptions\\PermissionAlreadyExists::create()
+#1 /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php(37): Spatie\\Permission\\Models\\Permission::create()
+#2 [internal function]: RolesTableSeeder->run()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(134): Illuminate\\Container\\Container->call()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#10 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#11 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#12 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#14 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#18 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#19 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#20 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#22 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#23 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#24 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#25 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#26 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#27 {main}
+"} 
+[2020-02-06 12:46:33] local.ERROR: A `update-account` permission already exists for guard `api`. {"exception":"[object] (Spatie\\Permission\\Exceptions\\PermissionAlreadyExists(code: 0): A `update-account` permission already exists for guard `api`. at /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Exceptions/PermissionAlreadyExists.php:11)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Models/Permission.php(40): Spatie\\Permission\\Exceptions\\PermissionAlreadyExists::create()
+#1 /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php(37): Spatie\\Permission\\Models\\Permission::create()
+#2 [internal function]: RolesTableSeeder->run()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(134): Illuminate\\Container\\Container->call()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#10 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#11 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#12 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#14 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#18 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#19 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#20 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#22 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#23 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#24 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#25 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#26 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#27 {main}
+"} 
+[2020-02-06 12:47:07] local.ERROR: A `update-avatar` permission already exists for guard `api`. {"exception":"[object] (Spatie\\Permission\\Exceptions\\PermissionAlreadyExists(code: 0): A `update-avatar` permission already exists for guard `api`. at /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Exceptions/PermissionAlreadyExists.php:11)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Models/Permission.php(40): Spatie\\Permission\\Exceptions\\PermissionAlreadyExists::create()
+#1 /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php(37): Spatie\\Permission\\Models\\Permission::create()
+#2 [internal function]: RolesTableSeeder->run()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(134): Illuminate\\Container\\Container->call()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#10 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#11 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#12 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#14 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#18 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#19 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#20 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#22 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#23 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#24 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#25 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#26 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#27 {main}
+"} 
+[2020-02-06 12:47:36] local.ERROR: A `update-avatar` permission already exists for guard `api`. {"exception":"[object] (Spatie\\Permission\\Exceptions\\PermissionAlreadyExists(code: 0): A `update-avatar` permission already exists for guard `api`. at /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Exceptions/PermissionAlreadyExists.php:11)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/Models/Permission.php(40): Spatie\\Permission\\Exceptions\\PermissionAlreadyExists::create()
+#1 /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php(37): Spatie\\Permission\\Models\\Permission::create()
+#2 [internal function]: RolesTableSeeder->run()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(134): Illuminate\\Container\\Container->call()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#10 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#11 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#12 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#14 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#18 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#19 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#20 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#22 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#23 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#24 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#25 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#26 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#27 {main}
+"} 
+[2020-02-06 12:52:28] local.ERROR: Too few arguments to function Spatie\Permission\PermissionRegistrar::__construct(), 0 passed in /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php on line 17 and exactly 1 expected {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Too few arguments to function Spatie\\Permission\\PermissionRegistrar::__construct(), 0 passed in /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php on line 17 and exactly 1 expected at /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/PermissionRegistrar.php:43)
+[stacktrace]
+#0 /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php(17): Spatie\\Permission\\PermissionRegistrar->__construct()
+#1 [internal function]: RolesTableSeeder->run()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(134): Illuminate\\Container\\Container->call()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#18 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#19 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#20 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#22 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#23 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#24 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#25 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2020-02-06 12:52:46] local.ERROR: Too few arguments to function Spatie\Permission\PermissionRegistrar::__construct(), 0 passed in /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php on line 17 and exactly 1 expected {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Too few arguments to function Spatie\\Permission\\PermissionRegistrar::__construct(), 0 passed in /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php on line 17 and exactly 1 expected at /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/PermissionRegistrar.php:43)
+[stacktrace]
+#0 /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php(17): Spatie\\Permission\\PermissionRegistrar->__construct()
+#1 [internal function]: RolesTableSeeder->run()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(134): Illuminate\\Container\\Container->call()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#18 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#19 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#20 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#22 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#23 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#24 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#25 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2020-02-06 12:53:25] local.ERROR: Too few arguments to function Spatie\Permission\PermissionRegistrar::__construct(), 0 passed in /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php on line 21 and exactly 1 expected {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Too few arguments to function Spatie\\Permission\\PermissionRegistrar::__construct(), 0 passed in /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php on line 21 and exactly 1 expected at /home/rajko/Desktop/back/vendor/spatie/laravel-permission/src/PermissionRegistrar.php:43)
+[stacktrace]
+#0 /home/rajko/Desktop/back/database/seeds/RolesTableSeeder.php(21): Spatie\\Permission\\PermissionRegistrar->__construct()
+#1 [internal function]: RolesTableSeeder->run()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(134): Illuminate\\Container\\Container->call()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#18 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#19 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#20 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#22 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#23 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#24 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#25 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2020-02-06 15:44:17] local.ERROR: Command "make:queue" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:queue\" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /home/rajko/Desktop/back/vendor/symfony/console/Application.php:670)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find()
+#1 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#4 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 

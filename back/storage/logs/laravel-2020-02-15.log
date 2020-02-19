@@ -1,0 +1,118 @@
+[2020-02-15 19:35:47] local.ERROR: Undefined class constant 'App\Providers\RouteServiceProvider::HOME' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Undefined class constant 'App\\Providers\\RouteServiceProvider::HOME' at /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php:844)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(844): ReflectionClass->newInstanceArgs()
+#1 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(682): Illuminate\\Container\\Container->build()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(630): Illuminate\\Container\\Container->resolve()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(768): Illuminate\\Container\\Container->make()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(233): Illuminate\\Foundation\\Application->make()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(833): Illuminate\\Routing\\Route->getController()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(794): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(173): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(117): Illuminate\\Foundation\\Console\\RouteListCommand->getMiddleware()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(89): Illuminate\\Foundation\\Console\\RouteListCommand->getRouteInformation()
+#10 [internal function]: Illuminate\\Foundation\\Console\\RouteListCommand->Illuminate\\Foundation\\Console\\{closure}()
+#11 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/Collection.php(638): array_map()
+#12 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(90): Illuminate\\Support\\Collection->map()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(74): Illuminate\\Foundation\\Console\\RouteListCommand->getRoutes()
+#14 [internal function]: Illuminate\\Foundation\\Console\\RouteListCommand->handle()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#18 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#19 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#20 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#22 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#23 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#24 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#25 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#26 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#27 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#28 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#29 {main}
+"} 
+[2020-02-15 19:36:08] local.ERROR: Undefined class constant 'App\Providers\RouteServiceProvider::HOME' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Undefined class constant 'App\\Providers\\RouteServiceProvider::HOME' at /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php:844)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(844): ReflectionClass->newInstanceArgs()
+#1 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(682): Illuminate\\Container\\Container->build()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(630): Illuminate\\Container\\Container->resolve()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(768): Illuminate\\Container\\Container->make()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(233): Illuminate\\Foundation\\Application->make()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(833): Illuminate\\Routing\\Route->getController()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(794): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(173): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(117): Illuminate\\Foundation\\Console\\RouteListCommand->getMiddleware()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(89): Illuminate\\Foundation\\Console\\RouteListCommand->getRouteInformation()
+#10 [internal function]: Illuminate\\Foundation\\Console\\RouteListCommand->Illuminate\\Foundation\\Console\\{closure}()
+#11 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/Collection.php(638): array_map()
+#12 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(90): Illuminate\\Support\\Collection->map()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(74): Illuminate\\Foundation\\Console\\RouteListCommand->getRoutes()
+#14 [internal function]: Illuminate\\Foundation\\Console\\RouteListCommand->handle()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#18 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#19 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#20 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#22 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#23 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#24 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#25 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#26 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#27 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#28 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#29 {main}
+"} 
+[2020-02-15 19:36:13] local.ERROR: Command "routes" is not defined.
+
+Did you mean one of these?
+    route:cache
+    route:clear
+    route:list {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"routes\" is not defined.
+
+Did you mean one of these?
+    route:cache
+    route:clear
+    route:list at /home/rajko/Desktop/back/vendor/symfony/console/Application.php:670)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find()
+#1 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#4 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2020-02-15 19:36:18] local.ERROR: Undefined class constant 'App\Providers\RouteServiceProvider::HOME' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Undefined class constant 'App\\Providers\\RouteServiceProvider::HOME' at /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php:844)
+[stacktrace]
+#0 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(844): ReflectionClass->newInstanceArgs()
+#1 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(682): Illuminate\\Container\\Container->build()
+#2 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(630): Illuminate\\Container\\Container->resolve()
+#3 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(768): Illuminate\\Container\\Container->make()
+#4 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(233): Illuminate\\Foundation\\Application->make()
+#5 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(833): Illuminate\\Routing\\Route->getController()
+#6 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Routing/Route.php(794): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(173): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(117): Illuminate\\Foundation\\Console\\RouteListCommand->getMiddleware()
+#9 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(89): Illuminate\\Foundation\\Console\\RouteListCommand->getRouteInformation()
+#10 [internal function]: Illuminate\\Foundation\\Console\\RouteListCommand->Illuminate\\Foundation\\Console\\{closure}()
+#11 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/Collection.php(638): array_map()
+#12 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(90): Illuminate\\Support\\Collection->map()
+#13 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php(74): Illuminate\\Foundation\\Console\\RouteListCommand->getRoutes()
+#14 [internal function]: Illuminate\\Foundation\\Console\\RouteListCommand->handle()
+#15 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#16 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Support/helpers.php(522): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): value()
+#18 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#19 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Container/Container.php(591): Illuminate\\Container\\BoundMethod::call()
+#20 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(202): Illuminate\\Container\\Container->call()
+#21 /home/rajko/Desktop/back/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#22 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Command.php(189): Symfony\\Component\\Console\\Command\\Command->run()
+#23 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(1012): Illuminate\\Console\\Command->run()
+#24 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#25 /home/rajko/Desktop/back/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#26 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#27 /home/rajko/Desktop/back/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#28 /home/rajko/Desktop/back/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#29 {main}
+"} 
